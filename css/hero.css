@@ -1,0 +1,27 @@
+/* hero */
+    .hero { overflow: hidden; position: relative; color: #fff; background: var(--maroon-deep); }
+    .hero::before { content: ""; position: absolute; width: 670px; height: 670px; top: -360px; right: -150px; border: 1px solid rgba(255,255,255,.16); border-radius: 50%; box-shadow: 0 0 0 54px rgba(255,255,255,.025), 0 0 0 108px rgba(255,255,255,.02); }
+    .hero-grid { position: relative; z-index: 1; min-height: 520px; display: grid; grid-template-columns: 1.05fr .95fr; align-items: center; gap: 56px; padding-block: 78px 84px; }
+    .eyebrow { display: flex; align-items: center; gap: 10px; color: #e8c8c4; }
+    .eyebrow::before { content: ""; width: 25px; height: 1px; background: var(--rose); }
+    h1 { max-width: 680px; margin-bottom: 20px; font-family: var(--serif); font-size: clamp(46px, 6.1vw, 73px); font-weight: 400; line-height: .99; letter-spacing: -.045em; }
+    h1 em { color: #e5b9b5; font-style: normal; }
+    .hero-copy { max-width: 520px; margin-bottom: 28px; color: #eadbd8; font-size: 14px; line-height: 1.85; }
+    .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+    .hero .button { min-height: 48px; padding-inline: 20px; background: #fff; border-color: #fff; color: var(--maroon-deep); }
+    .hero .button:hover { background: #f4e9e6; }
+    .hero .button-outline { color: #fff; background: transparent; border-color: rgba(255,255,255,.5); }
+    .hero .button-outline:hover { color: var(--maroon-deep); background: #fff; }
+    .hero-visual { position: relative; min-height: 330px; display: grid; place-items: center; }
+    .blueprint { position: relative; width: min(100%, 455px); aspect-ratio: 1.12; padding: 24px; border: 1px solid rgba(255,255,255,.34); background: linear-gradient(145deg, rgba(255,255,255,.08), rgba(255,255,255,.015)); }
+    .blueprint-head { display: flex; align-items: center; justify-content: space-between; color: #e8c8c4; font-size: 12px; font-weight: 750; letter-spacing: .16em; text-transform: uppercase; }
+    .dots { display: flex; gap: 5px; }
+    .dots i { width: 5px; height: 5px; display: block; background: var(--rose); border-radius: 50%; }
+    .blueprint svg { width: 100%; height: calc(100% - 30px); margin-top: 16px; }
+    .blueprint-caption { position: absolute; left: -25px; bottom: 18px; padding: 13px 16px; color: var(--ink); background: #f8f1eb; box-shadow: 0 12px 30px rgba(0,0,0,.16); }
+    .blueprint-caption strong { display: block; font-family: var(--serif); font-size: 20px; font-weight: 400; }
+    .blueprint-caption small { color: var(--muted); font-size: 11px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .capability-band { background: #eee4dc; border-bottom: 1px solid var(--line); }
+    .capability-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 22px; }
+    .capability-label { color: #806c65; font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    .capability-list { display: flex; flex-wrap: wrap; gap: 12px 25px; color: #453a37; font-size: 13px; font-weight: 750; }

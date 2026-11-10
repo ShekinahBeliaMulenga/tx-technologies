@@ -1,0 +1,26 @@
+/* contact */
+    .contact { padding-block: 88px; }
+    .contact-grid { display: grid; grid-template-columns: .78fr 1.22fr; align-items: start; gap: 62px; }
+    .contact h2 { max-width: 390px; }
+    .contact-copy { margin: 16px 0 23px; color: var(--muted); font-size: 14px; line-height: 1.9; }
+    .contact-list { display: grid; gap: 10px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .contact-link { display: flex; align-items: center; gap: 10px; color: #4a3d3a; font-size: 14px; font-weight: 700; overflow-wrap: anywhere; }
+    .contact-link:hover { color: var(--maroon); }
+    .contact-link-icon { flex: 0 0 27px; width: 27px; height: 27px; display: grid; place-items: center; color: var(--maroon); background: var(--maroon-soft); font-size: 14px; }
+    .enquiry-panel { padding: 25px; background: var(--white); border: 1px solid var(--line); }
+    .enquiry-panel h3 { margin: 0 0 5px; font-family: var(--serif); font-size: 25px; font-weight: 400; }
+    .enquiry-help { margin: 0 0 19px; color: var(--muted); font-size: 13px; line-height: 1.7; }
+    .selection-summary { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 15px; padding: 11px 13px; background: #f3ebe6; color: #5a4744; font-size: 13px; }
+    .selection-summary strong { color: var(--maroon); font-size: 14px; }
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; }
+    .field { display: flex; flex-direction: column; gap: 6px; }
+    .field.full { grid-column: 1 / -1; }
+    .field label { color: #514440; font-size: 12px; font-weight: 800; }
+    .field input, .field select, .field textarea { width: 100%; min-height: 42px; padding: 10px 11px; border: 1px solid #dcd0ca; border-radius: 0; outline: none; color: var(--ink); background: #fff; font-size: 14px; }
+    .field textarea { min-height: 104px; resize: vertical; }
+    .field input:focus, .field select:focus, .field textarea:focus { border-color: var(--maroon); box-shadow: 0 0 0 2px rgba(116,27,42,.09); }
+    .form-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+    .form-actions .button { min-height: 43px; }
+    .form-actions .button:disabled { opacity: .45; cursor: not-allowed; transform: none; }
+    .form-status { min-height: 17px; margin: 10px 0 0; color: var(--maroon); font-size: 12px; }
+    .privacy-note { margin: 9px 0 0; color: #877a74; font-size: 11px; line-height: 1.6; }

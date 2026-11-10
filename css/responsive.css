@@ -1,0 +1,53 @@
+/* responsive */
+    @media (max-width: 920px) {
+      .hero-grid { gap: 30px; }
+      .section-head, .process-grid, .contact-grid { gap: 36px; }
+      .course-grid { grid-template-columns: repeat(3, 1fr); }
+      .academy-top { grid-template-columns: .9fr 1.1fr; }
+    }
+    @media (max-width: 700px) {
+      .wrap { width: min(calc(100% - 34px), var(--max)); }
+      .hero-grid { grid-template-columns: 1fr; gap: 26px; min-height: auto; padding-block: 65px 60px; }
+      h1 { font-size: clamp(45px, 12vw, 65px); }
+      .hero-copy { font-size: 14px; }
+      .hero-visual { min-height: 260px; margin-inline: 10px; }
+      .blueprint { max-width: 420px; }
+      .blueprint-caption { left: -8px; }
+      .capability-inner { display: block; padding-block: 19px; }
+      .capability-list { margin-top: 9px; gap: 9px 16px; }
+      .section, .contact { padding-block: 68px; }
+      .section-head, .process-grid, .contact-grid, .academy-top { grid-template-columns: 1fr; gap: 19px; }
+      .section-head { margin-bottom: 28px; }
+      .service-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .service-card { min-height: 278px; padding: 16px; }
+      .service-card h3 { font-size: 13px; }
+      .service-card p { font-size: 13px; }
+      .service-price strong { font-size: 15px; }
+      .process { padding-block: 67px; }
+      .process-grid { gap: 27px; }
+      .portfolio-grid { grid-template-columns: 1fr; }
+      .txmate-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+      .txmate-shot span { font-size: 11px; }
+      .portfolio-item { min-height: 250px; }
+      .academy { padding-block: 61px; }
+      .academy-top { gap: 20px; }
+      .academy-logo-wrap { min-height: 90px; }
+      .academy-logo { max-width: 330px; }
+      .course-grid { grid-template-columns: repeat(2, 1fr); }
+      .course { min-height: 152px; }
+      .academy-action { align-items: flex-start; flex-direction: column; }
+      .contact-grid { gap: 27px; }
+      .enquiry-panel { padding: 19px; }
+      .footer-main, .footer-bottom { align-items: flex-start; flex-direction: column; }
+    }
+    @media (max-width: 420px) {
+      .service-grid { grid-template-columns: 1fr; }
+      .service-card { min-height: 0; }
+      .course-grid { grid-template-columns: 1fr 1fr; }
+      .form-grid { grid-template-columns: 1fr; }
+      .field.full { grid-column: auto; }
+      .selection-summary { align-items: flex-start; flex-direction: column; gap: 4px; }
+      .form-actions { flex-direction: column; }
+      .form-actions .button { width: 100%; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; } }

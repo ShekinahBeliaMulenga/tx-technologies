@@ -1,0 +1,39 @@
+    <section class="contact" id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <p class="kicker">Contact & project enquiries</p>
+          <h2>Let's discuss what you want to build.</h2>
+          <p class="contact-copy">Select the service or services you are interested in, add a few details and send the enquiry through WhatsApp or email. Your selected services and the information entered here will be included in the message.</p>
+          <div class="contact-list">
+            <a class="contact-link" href="https://wa.me/260777918434" target="_blank" rel="noopener noreferrer"><span class="contact-link-icon" aria-hidden="true">W</span><span>WhatsApp · 0777918434</span></a>
+            <a class="contact-link" href="mailto:shekinahbeliamulenga@gmail.com"><span class="contact-link-icon" aria-hidden="true">@</span><span>shekinahbeliamulenga@gmail.com</span></a>
+            <a class="contact-link" href="https://www.linkedin.com/in/shekinah-belia-mulenga-7873052a1/" target="_blank" rel="noopener noreferrer"><span class="contact-link-icon" aria-hidden="true">in</span><span>LinkedIn · Shekinah Belia Mulenga</span></a>
+          </div>
+        </div>
+
+        <div class="enquiry-panel" id="enquiry">
+          <h3>Build your enquiry</h3>
+          <p class="enquiry-help">Tick the services you need. You can select more than one.</p>
+          <div class="selection-summary" aria-live="polite"><span id="selected-count">No services selected</span><strong id="selected-note">Select a service to request a quotation</strong></div>
+          <ul class="chips" id="selected-list" aria-label="Selected services"></ul>
+          <p class="chips-empty" id="selected-empty"><a href="#services">Choose services above</a> to include them in your enquiry.</p>
+          <form id="enquiry-form">
+            <div class="form-grid">
+              <div class="field"><label for="client-name">Your name *</label><input id="client-name" name="name" autocomplete="name" required maxlength="100" placeholder="Full name"></div>
+              <div class="field"><label for="client-phone">Your phone / WhatsApp *</label><input id="client-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required maxlength="30" placeholder="Your contact number"></div>
+              <div class="field"><label for="client-email">Email address</label><input id="client-email" name="email" type="email" inputmode="email" autocomplete="email" maxlength="160" placeholder="you@example.com"></div>
+              <div class="field"><label for="client-organisation">Business / organisation</label><input id="client-organisation" name="organisation" autocomplete="organization" maxlength="120" placeholder="Optional"></div>
+              <div class="field full"><label for="project-details">What do you need help with? *</label><textarea id="project-details" name="details" required minlength="10" maxlength="1800" placeholder="Describe what you want to build, fix or understand. Include any useful requirements or deadlines."></textarea></div>
+              <div class="field full"><label for="project-timing">Preferred timeframe</label><select id="project-timing" name="timing"><option value="Flexible">Flexible</option><option value="As soon as possible">As soon as possible</option><option value="Within 1–2 weeks">Within 1–2 weeks</option><option value="Within a month">Within a month</option><option value="I am planning ahead">I am planning ahead</option></select></div>
+            </div>
+            <div class="form-actions">
+              <button class="button" id="whatsapp-submit" type="submit">Send via WhatsApp ↗</button>
+              <button class="button button-outline" id="email-submit" type="button">Prepare email ↗</button>
+              <button class="button button-text" id="copy-submit" type="button">Copy message</button>
+            </div>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            <p class="privacy-note">This page does not store your enquiry. WhatsApp or your email application opens with a pre-filled message for you to review and send.</p>
+          </form>
+        </div>
+      </div>
+    </section>

@@ -1,0 +1,9 @@
+/* components */
+    .button-outline { color: var(--maroon); background: transparent; }
+    .button-outline:hover { color: #fff; }
+    .eyebrow, .kicker { margin: 0 0 17px; font-size: 12px; font-weight: 800; letter-spacing: .19em; text-transform: uppercase; }
+    .section { padding-block: 88px; }
+    .section-head { display: grid; grid-template-columns: .88fr 1.12fr; align-items: end; gap: 58px; margin-bottom: 38px; }
+    .kicker { color: var(--maroon); margin-bottom: 12px; }
+    h2 { margin-bottom: 0; font-family: var(--serif); font-size: clamp(34px, 4vw, 49px); font-weight: 400; line-height: 1.04; letter-spacing: -.035em; }
+    .intro { max-width: 570px; margin: 0; color: var(--muted); font-size: 14px; line-height: 1.9; }

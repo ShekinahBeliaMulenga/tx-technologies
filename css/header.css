@@ -1,0 +1,13 @@
+/* header */
+    .topline { height: 4px; background: var(--maroon); }
+    .site-header { position: sticky; top: 0; z-index: 30; background: rgba(247,243,239,.94); border-bottom: 1px solid rgba(231,221,215,.9); backdrop-filter: blur(16px); }
+    .nav { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { display: inline-flex; align-items: center; gap: 11px; min-width: max-content; }
+    .brand-mark { width: 39px; height: 39px; display: grid; place-items: center; color: #fff; background: var(--maroon); font-size: 13px; font-weight: 850; letter-spacing: -.08em; }
+    .brand-name { display: block; font-size: 14px; line-height: 1.15; font-weight: 800; letter-spacing: -.035em; }
+    .brand-sub { display: block; margin-top: 4px; color: var(--muted); font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+    .nav-links { display: flex; align-items: center; gap: 25px; color: #554946; font-size: 14px; font-weight: 700; }
+    .nav-links a:not(.nav-cta):hover { color: var(--maroon); }
+    .nav-cta, .button { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 9px; padding: 0 17px; border: 1px solid var(--maroon); background: var(--maroon); color: #fff; font-size: 14px; font-weight: 750; cursor: pointer; transition: transform .18s ease, background .18s ease; }
+    .nav-cta:hover, .button:hover { transform: translateY(-1px); background: var(--maroon-deep); }
+    .menu-toggle { display: none; border: 1px solid var(--line); padding: 9px 12px; background: transparent; color: var(--ink); font-size: 14px; }

@@ -1,0 +1,11 @@
+/* process */
+    .process { padding-block: 78px; color: #fff; background: #241b1a; }
+    .process-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 70px; }
+    .process h2 { max-width: 430px; }
+    .process .kicker { color: #dbaaa7; }
+    .process-copy { max-width: 430px; margin: 18px 0 0; color: #c9bab4; font-size: 14px; line-height: 1.85; }
+    .steps { border-top: 1px solid #5b4b47; }
+    .step { display: grid; grid-template-columns: 35px 1fr; gap: 15px; padding: 17px 0; border-bottom: 1px solid #5b4b47; }
+    .step-number { color: #dcaeaa; font-family: var(--serif); font-size: 16px; }
+    .step strong { display: block; margin-bottom: 3px; font-size: 14px; }
+    .step p { margin: 0; color: #bcada7; font-size: 13px; line-height: 1.7; }

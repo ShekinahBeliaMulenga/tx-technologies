@@ -1,8 +1,8 @@
 /* academy */
     .academy { padding-block: 76px; background: #eee5de; border-block: 1px solid var(--line); }
     .academy-top { display: grid; grid-template-columns: .8fr 1.2fr; align-items: center; gap: 44px; margin-bottom: 31px; }
-    .academy-logo-wrap { display: flex; align-items: center; min-height: 112px; padding: 10px; background: var(--maroon-deep); }
-    .academy-logo { display: block; width: min(100%, 390px); height: auto; }
+    .academy-logo-wrap { display: flex; align-items: center; justify-content: center; min-height: 150px; padding: clamp(24px, 4vw, 40px); background: radial-gradient(ellipse at 50% 40%, #7d1731 0%, #5a0f25 55%, var(--maroon-deep) 100%); }
+    .academy-logo { display: block; width: min(100%, 380px); height: auto; }
     .academy-heading .kicker { margin-bottom: 10px; }
     .academy-heading h2 { font-size: clamp(30px, 3.6vw, 42px); }
     .academy-heading p { max-width: 540px; margin: 13px 0 0; color: var(--muted); font-size: 14px; line-height: 1.8; }
